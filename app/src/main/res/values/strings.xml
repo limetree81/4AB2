@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">4AB2</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Preference Screen -->
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="security">보안</string>
+    <string name="sync_header">언어 설정</string>
+    <string name="use_password">비밀번호 잠금 사용</string>
+    <string name="set_password">비밀번호 설정</string>
+    <string name="delete_password">비밀번호 초기화</string>
+    <string name="language_title">언어</string>
+
+    <!-- Signin Screen -->
+    <string name="pwInputHint">비밀번호</string>
+    <string name="pwSubmitBtn">확인</string>
+    <string name="wrongPassword">비밀번호가 틀렸습니다.</string>
 </resources>

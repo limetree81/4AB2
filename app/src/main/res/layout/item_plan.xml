@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_main_background">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textSize="35sp"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/repetition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="월수금"
+        android:textSize="20sp"
+        android:textColor="#7F7F7F"
+        android:layout_toEndOf="@id/name"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/firstDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-01-01"
+        android:textSize="20sp"
+        android:textColor="#7F7F7F"
+        android:layout_toEndOf="@id/repetition"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"/>
+</RelativeLayout>
